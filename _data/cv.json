@@ -1,0 +1,150 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Kolmar Kafran",
+        "label": "iOS Developer",
+        "image": "",
+        "email": "dev@kafran.codes",
+        "phone": "+55 (83) 9 9970-4871",
+        "url": "https://kafran.codes",
+        "summary": "",
+        "location": {
+            "postalCode": "58037-603",
+            "city": "João Pessoa",
+            "countryCode": "BR",
+            "region": "Paraíba"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "_kafran",
+                "url": "https://twitter.com/_kafran"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "kolmar-Kafran",
+                "url": "https://linkedin.com/in/kolmar-kafran"
+            },
+            {
+                "network": "Github",
+                "username": "kafran",
+                "url": "https://github.com/kafran"
+            },
+            {
+                "network": "StackOverflow",
+                "username": "3147247",
+                "url": "https://www.stackoverflow.com/users/3147247"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Ministry for Economy",
+            "location": "Brasília, DF",
+            "description": "Brazilian Federal Government",
+            "position": "Data Engineer",
+            "url": "https://www.economia.gov.br",
+            "startDate": "2018-09-01",
+            "summary": "I'm responsible for the development of the data pipeline of the Ministry for Economy. I'm also responsible for the development of the data warehouse and the data visualization platform.",
+            "highlights": [
+                "Data pipeline development",
+                "Data warehouse development",
+                "Data visualization platform development"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Uninter Educacional S/A",
+            "url": "https://www.uninter.com/",
+            "area": "Business Administration",
+            "studyType": "Associate",
+            "startDate": "2012-08-01",
+            "endDate": "2014-04-26"
+        },
+        {
+            "institution": "Uninter Educacional S/A",
+            "url": "https://www.uninter.com/",
+            "area": "Business Administration",
+            "studyType": "Bachelor",
+            "startDate": "2018-02-01",
+            "endDate": "2020-12-10"
+        },
+        {
+            "institution": "Uninter Educacional S/A",
+            "url": "https://www.uninter.com/",
+            "area": "Information Technology Management",
+            "studyType": "Certificate",
+            "startDate": "2019-05-27",
+            "endDate": "2020-12-19"
+        }
+    ],
+    "skills": [
+        {
+            "name": "iOS Development",
+            "level": "Mid-Level",
+            "keywords": [
+                "Core Data",
+                "Swift",
+                "SwiftUI",
+                "UIKit",
+                "Objective-C",
+                "Xcode",
+                "Git"
+            ]
+        },
+        {
+            "name": "Data Engineering",
+            "level": "Senior",
+            "keywords": [
+                "Python",
+                "Pandas",
+                "SQL",
+                "SQL Server",
+                "Linux",
+                "Docker",
+                "Power BI"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Portuguese",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        }
+    ],
+    "references": [
+        {
+            "name": "J. Jordan Thaeler",
+            "reference": "Kolmar is very much a self-starter and life long learner. He goes out of his way to comprehend things that aren't readily available on the job. When we look for engineers we look for people who can solve problems, and Kolmar did this on both technical and business levels within our organization. Kolmar served as a mentor to more junior engineers, showing them best practices. He ingratiated himself with leadership by taking on tasks that other people avoided. His sense of humor diffuses tense situations and he's very approachable."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Raio-X",
+            "description": "A management tool developed by the Ministry for Economy of Brazil which aims to promote the transparency and monitoring of public management and expenditures to the whole society.",
+            "keywords": [
+                "Python",
+                "Airflow",
+                "SQL Server"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "url": "https://raiox.economia.gov.br",
+            "roles": [
+                "Data Engineer"
+            ],
+            "entity": "Ministry for Economy",
+            "type": "application"
+        }
+    ],
+    "meta": {
+        "canonical": "https://raw.githubusercontent.com/kafran/kafran.codes/main/_data/cv.json",
+        "version": "v1.0.1",
+        "lastModified": "2022-10-23T10:57:00"
+    }
+}

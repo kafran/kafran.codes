@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+/* Light Mode */
+$lm-base-color:           #393e46 !default;
+
+$lm-text-color:           #181c22 !default;
+$lm-text-color-tint-40:            tint($lm-text-color, 40%) !default;
+$lm-text-color-tint-25:            tint($lm-text-color, 25%) !default;
+$lm-text-color-lighten-50:         lighten($lm-text-color, 50%) !default;
+$lm-text-color-lighten-60:        lighten($lm-text-color, 60%) !default;
+
+$lm-accent-color:         #00838a !default;
+$lm-accent-color-hover-tint:   tint($lm-accent-color, 20%) !default;
+$lm-accent-color-hover-shade: shade($lm-accent-color, 25%) !default;
+$lm-accent-color-focus: shade($lm-accent-color, 20%) !default;
+
+$lm-background-color:     #fff !default;
+$lm-code-background-color:  tint($lm-base-color, 95%) !default;
+$lm-border-color:           tint($lm-base-color, 80%) !default;
+$lm-overlay-color:          $lm-base-color !default;
+
+/* Dark Mode */
+$dm-base-color:             #59626F !default;
+
+$dm-text-color:             #e0e0e0 !default;
+$dm-text-color-tint-40:            tint($dm-text-color, 40%) !default;
+$dm-text-color-tint-25:            tint($dm-text-color, 25%) !default;
+$dm-text-color-lighten-50:         lighten($dm-text-color, 50%) !default;
+$dm-text-color-lighten-60:        lighten($dm-text-color, 60%) !default;
+
+$dm-accent-color:           #BF2604 !default;
+$dm-accent-color-hover-tint:   tint($dm-accent-color, 20%) !default;
+$dm-accent-color-hover-shade: shade($dm-accent-color, 25%) !default;
+$dm-accent-color-focus: shade($dm-accent-color, 20%) !default;
+
+$dm-background-color:       #0D0000 !default;
+$dm-code-background-color:  #fff !default;
+$dm-border-color:             rgba($dm-text-color, 0.5) !default;
+$dm-overlay-color:          #fff !default;
+
+:root {
+    --base-color :               #{$lm-base-color};
+    --text-color :               #{$lm-text-color};
+    --text-color-tint-40 :            #{$lm-text-color-tint-40};
+    --text-color-tint-25 :            #{$lm-text-color-tint-25};
+    --text-color-lighten-50 :         #{$lm-text-color-lighten-50};
+    --text-color-lighten-60 :        #{$lm-text-color-lighten-60};
+    --accent-color :             #{$lm-accent-color};
+    --accent-color-hover-tint :  #{$lm-accent-color-hover-tint};
+    --accent-color-hover-shade : #{$lm-accent-color-hover-shade};
+    --accent-color-focus :       #{$lm-accent-color-focus};
+    --background-color :         #{$lm-background-color};
+    --code-background-color :    #{$lm-code-background-color};
+    --border-color :             #{$lm-border-color};
+    --overlay-color :            #{$lm-overlay-color};
+}
+
+    
+:root[dark] {
+    --base-color :               #{$dm-base-color};
+    --text-color :               #{$dm-text-color};
+    --text-color-tint-40 :            #{$dm-text-color-tint-40};
+    --text-color-tint-25 :            #{$dm-text-color-tint-25};
+    --text-color-lighten-50 :         #{$dm-text-color-lighten-50};
+    --text-color-lighten-60 :        #{$dm-text-color-lighten-60};
+    --accent-color :             #{$dm-accent-color};
+    --accent-color-hover-tint :  #{$dm-accent-color-hover-tint};
+    --accent-color-hover-shade : #{$dm-accent-color-hover-shade};
+    --accent-color-focus :       #{$dm-accent-color-focus};
+    --background-color :         #{$dm-background-color};
+    --code-background-color :    #{$dm-code-background-color};
+    --border-color :             #{$dm-border-color};
+    --overlay-color :            #{$dm-overlay-color};
+}
+
+$base-color : var(--base-color);
+$text-color : var(--text-color);
+$text-color-tint-40 : var(--text-color-tint-40);
+$text-color-tint-25 : var(--text-color-tint-25);
+$text-color-lighten-50 : var(--text-color-lighten-50);
+$text-color-lighten-60 : var(--text-color-lighten-60);
+$accent-color : var(--accent-color);
+$accent-color-hover-tint : var(--accent-color-hover-tint);
+$accent-color-hover-shade : var(--accent-color-hover-shade);
+$accent-color-focus : var(--accent-color-focus);
+$background-color : var(--background-color);
+$code-background-color : var(--code-background-color);
+$border-color : var(--border-color);
+$overlay-color : var(--overlay-color);

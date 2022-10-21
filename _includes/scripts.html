@@ -1,0 +1,25 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BWEV2T97LS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied'
+  });
+  gtag('config', 'G-BWEV2T97LS');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script async src="{{ '/assets/javascripts/main.js' | relative_url }}"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+{% if site.search %}
+  {%- assign search_provider = site.search_provider | default: "lunr" -%}
+  {%- case search_provider -%}
+    {%- when "lunr" -%}
+      {% include search/lunr-search-scripts.html %}
+    {%- when "algolia" -%}
+      {% include search/algolia-search-scripts.html %}
+  {%- endcase -%}
+{% endif %}

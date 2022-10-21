@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.site-footer {
+  display: flex;
+  margin-top: 4rem;
+  color: $text-color-tint-40;
+  font-size: 80%;
+
+  .inner {
+    padding: 0 0.5rem;
+
+    @include breakpoint($small) {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+    @include breakpoint($medium) {
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+
+    @include breakpoint($large) {
+      padding-right: 3rem;
+      padding-left: 3rem;
+    }
+
+    @include breakpoint($xlarge) {
+      padding-right: 4rem;
+      padding-left: 4rem;
+    }
+  }
+}
+
+.copyright {
+  font-family: $monospace-font-family;
+}
+
+.copyright .love {
+  display: inline-block;
+  position: relative;
+  top: 0.2em;
+  font-size: 1.4em;
+  color: $accent-color;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: love 0.5s infinite linear alternate-reverse;
+  -moz-animation: love 0.5s infinite linear alternate-reverse;
+  animation: love 0.5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+  to {
+    -webkit-transform: scale(1.1);
+  }
+}
+
+@-moz-keyframes love {
+  to {
+    -moz-transform: scale(1.1);
+  }
+}
+
+@keyframes love {
+  to {
+    transform: scale(1.1);
+  }
+}

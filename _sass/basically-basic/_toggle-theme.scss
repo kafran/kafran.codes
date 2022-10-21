@@ -1,0 +1,45 @@
+/* Toggle Theme */
+.toggle-theme {
+    position: relative;
+    display: flex;
+    width: 45px;
+    height: 24px;
+    border-radius: 30px;
+    background-color: $lm-border-color;
+    user-select: none;
+    cursor: pointer;
+    @media only screen and (max-width: $min-vw) {
+      margin-top: 12px;
+    }
+  }
+  
+  .toggle-sun,
+  .toggle-moon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 16px;
+    color: $lm-text-color-lighten-50;
+  }
+  
+  .toggle-moon {
+    transform: translateX(1px);
+  }
+  
+  .toggle-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: $lm-text-color-lighten-50;
+    border-radius: 50%;
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .dark-mode {
+    .toggle-thumb {
+      transform: translateX(21px);
+    }
+  }
