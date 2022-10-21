@@ -1,0 +1,92 @@
+title: kafran.codes
+author:
+  name: Kolmar Kafran
+  email: hello@kafran.codes
+description: >
+  The average self-taught developer.
+
+minima:
+  date_format: "%b %-d, %Y"
+  skin: dark
+  social_links:
+    - { platform: github,         user_url: "https://github.com/kafran" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/kolmar-kafran" }
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/3147247/kafran" }
+    - { platform: mastodon,       user_url: "https://mastodon.social/@kafran" }
+    - { platform: twitter,        user_url: "https://twitter.com/_kafran" }
+    - { platform: youtube,        user_url: "https://www.youtube.com/@kafran" }
+    - { platform: rss,            user_url: "https://kafran.codes/feed.xml" }
+
+header_pages:
+  - about.md
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Build settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Markdown Processing
+kramdown:
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/Recife # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Jekyll Feed
+feed:
+  path: feed.xml
+  posts_limit: 1000
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+# paginate: 5
+# paginate_path: /page:num/
+
+# Collections
+# collections:
+#   apps:
+#     output: true
+#     permalink: /:collection/:path/
+#   drawings:
+#     output: true
+#     permalink: /:collection/:path/
+
+
+# Front Matter Defaults
+# defaults:
+  # _posts
+  # - scope:
+  #     path: "_posts"
+  #     type: posts
+  #   values:
+  #     layout: post
+  #     read_time: true
+  # _apps
+  # - scope:
+  #     path: "_apps"
+  #     type: apps
+  #   values:
+  #     layout: page
+  #     read_time: false
+  # - scope:
+  #     path: "_drawings"
+  #     type: drawings
+  #   values:
+  #     layout: page
+  #     read_time: false
