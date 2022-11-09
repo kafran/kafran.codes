@@ -74,6 +74,7 @@ plugins: # previously gems
 # Jekyll Feed
 feed:
   path: atom.xml
+  posts_limit: 100
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 5

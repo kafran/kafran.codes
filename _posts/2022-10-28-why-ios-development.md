@@ -1,7 +1,7 @@
 ---
 title: "Why I decided to become an iOS Developer"
 excerpt: "I got bored of working with Data Science and decided to try to make mobile apps. But why iOS?"
-last_modified_at: 2022-10-22T15:40:00-03:00
+date: 2022-10-22 15:40:00 -0300
 image: "/assets/images/drawings/the-software-smith/the-software-smith.jpeg"
 tags: 
   - ios
@@ -40,3 +40,5 @@ You don't see an Android indie dev community as strong as the iOS' one. The real
 ## The Developer Experience
 
 The Apple's development ecosystem free the developer from thinking about architecture and how to solve common problems to focus on the product and the user experience. [Until recently the Android documentation was very unopinionated](https://developer.android.com/topic/architecture#recommended-app-arch) about which architecture the developers should follow or the "right" way and best practices to build an app. Meanwhile, [Apple always had a strong opinion and tried to lead the way on how an app should be organized](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html). Apple gives the developer tools and frameworks to build the best apps they can: Swift Charts, Core Data, SpriteKit, WeatherKit, to name a few. Under Android and Flutter developers heavely relies on third party libraries to solve the same problems, which can be frustrating, specially if you are alone to think about every aspect of your product.
+
+In episode [234: More Product. Less Architecture?](https://fragmentedpodcast.com/episodes/234/) of the Fragmented Podcast, Donn and Kaushik talk about how many Android applications seem to suffer from the disease of over-architecture while neglecting the product (UI/UX) itself.
