@@ -1,7 +1,7 @@
 ---
 title: "SwiftUI: Core Data [Draft]"
 excerpt: ""
-last_modified_at: 2022-10-22T15:40:00-03:00
+date: 2022-10-22 15:40:00 -0300
 image: "/assets/images/posts/2022-10-22-understanding-core-data/caju.jpeg"
 tags: 
   - swiftui
