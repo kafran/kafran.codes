@@ -1,7 +1,7 @@
 ---
 title: "Why I decided to become an iOS Developer"
 excerpt: "I got bored with working in the Data field (Analytics/Science/Engineering) and decided to make mobile apps. But why iOS?"
-date: 2022-10-22 15:40:00 -0300
+date: 2022-10-28 15:40:00 -0300
 image: "/assets/images/drawings/the-software-smith/the-software-smith.jpeg"
 tags: 
   - ios
