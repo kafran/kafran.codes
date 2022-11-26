@@ -1,6 +1,6 @@
 ---
 title: "Swift's OptionSet: an awesome bitwise operation use-case"
-excerpt: ""
+excerpt: "I have been avoiding that part of the book which talks about bitwise operators until I saw Swift's OptionSet on iOS frameworks."
 date: 2022-11-16 13:00:00 -0300
 image: "/assets/images/posts/2022-11-15-swift-optionset/coqueiro.jpeg"
 tags: 
