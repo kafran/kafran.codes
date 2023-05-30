@@ -121,3 +121,14 @@ hr {
     transform: scale(1.1);
   }
 }
+
+/**
+ * Links
+ */
+ a.post-link {
+  color: $text-color;
+
+  &:visited {
+    color: $text-color;
+  }
+}
