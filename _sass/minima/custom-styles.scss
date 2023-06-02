@@ -132,3 +132,15 @@ hr {
     color: $text-color;
   }
 }
+
+dt:not(:first-child) {
+  margin-top: $spacing-unit * .5;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: $spacing-unit;
+}
