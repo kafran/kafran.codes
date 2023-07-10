@@ -32,8 +32,6 @@
   </div>
   {% if page.image %}
   {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
-  <div class="header-image">
-    <img src="{{ intro_image }}" alt="{{ page.title }}">
-  </div>
+    <img src="{{ intro_image }}" alt="{{ page.title }}" class="header-image">
 {% endif %}
 </header>
