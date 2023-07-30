@@ -2,7 +2,6 @@
 title: "Swift's OptionSet: an awesome bitwise operation use-case"
 excerpt: "I have been avoiding that part of the book which talks about bitwise operators until I saw Swift's OptionSet on iOS frameworks."
 date: 2022-11-16 13:00:00 -0300
-image: "/assets/images/posts/2022-11-15-swift-optionset/coqueiro.jpeg"
 tags: 
   - swift
 ---
@@ -147,7 +146,3 @@ someFunc(options: [.option2, .option7]) // MyEightOptions(rawValue: 66)
 Much cleaner, right? Also, we have context now. In the example above MyEightOptions(rawValue: 66) stores de integer 66 wich is the binary integer `0b0100_0010`, indicating that option2 and option7 are flagged on.
 
 I hope this article has helped you to understand these SwiftUI and UIKit constructs and how OptionSet works behind the scenes.
-
-## About the image
-
-This is close to my house in the city of João Pessoa, in the Northeast of Brazil. I love this area. A courious fact, aparently [coconut trees are more dangerous than sharks](https://en.wikipedia.org/wiki/Death_by_coconut).
