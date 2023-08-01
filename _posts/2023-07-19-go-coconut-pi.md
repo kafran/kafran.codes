@@ -162,7 +162,7 @@ func main() {
 
 ### Wrapping Up
 
-Learning Go has been a thrilling journey. From understanding the basics, practicing through challenges, to finally building this small monitoring app, I've come to appreciate how Go's simplicity, coupled with its efficiency and concurrency model, makes it an ideal language for indie dev backend needs. I'm excited to use Go in more complex projects and explore more of its capabilities.
+I've come to appreciate how Go's simplicity, coupled with its efficiency and concurrency model, makes it an ideal language for the backend needs of independent developers like me. I'm always excited to use Go in my projects and explore more of its capabilities.
 
 You can see this project in action at https://coconutpi.kafran.codes. Please don't hack me 🥲.
 
