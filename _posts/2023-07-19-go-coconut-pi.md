@@ -164,9 +164,9 @@ func main() {
 
 I've come to appreciate how Go's simplicity, coupled with its efficiency and concurrency model, makes it an ideal language for the backend needs of independent developers like me. I'm always excited to use Go in my projects and explore more of its capabilities.
 
-You can see this project in action at https://coconutpi.kafran.codes. Please don't hack me 🥲.
+You can see this project in action at [https://coconutpi.kafran.codes](https://coconutpi.kafran.codes). Please don't hack me 🥲.
 
-You can find the source code on GitHub: https://github.com/kafran/coconut-pi.
+You can find the source code on GitHub: [https://github.com/kafran/coconut-pi](https://coconutpi.kafran.codes).
 
 Thanks for joining me on my journey learning Golang. Happy coding!
 
