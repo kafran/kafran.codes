@@ -1,5 +1,5 @@
 ---
-title: "Learning Go: Coconut Pi"
+title: "Go: Server-Sent Events from a Raspberry Pi"
 excerpt: "Creating a Raspberry Pi monitoring app with Go."
 date: 2023-07-19T17:00:00-03:00
 image: "/assets/images/posts/2022-11-15-swift-optionset/coqueiro.jpeg"
@@ -7,13 +7,13 @@ tags:
   - go
 ---
 
-In one of the episodes of "Under the Radar," Marco and David discuss the backend for iOS independent developers. When picking a stack for building your indie app, they recommend sticking with something "boring". What could be more boring than Go? Tired of the countless different frameworks for Python and the continually changing API for the Swift language, I decided to learn Go once and for all to run on the server.
+I recently acquired a Raspberry Pi – specifically, the Raspberry Pi 3 model B+. Even though it isn't the latest in the Raspberry Pi series, it's a powerful and versatile device that offers a world of possibilities for computing hobbyists like myself. Acquiring this device here in Brazil wasn't an easy task, particularly due to the ongoing silicon shortage that has led to inflated prices.
 
-I recently acquired a Raspberry Pi – specifically, the Raspberry Pi 3 model B+. While it's not the newest model, it's what I could afford here in Brazil due to the ongoing silicon shortage, which has driven prices even higher. After completing the [Tour Of Go](https://go.dev/tour/) and tackling a few challenges on [Python Challenge](http://www.pythonchallenge.com/) and [Project Euler](https://projecteuler.net/) to grasp the syntax, I embarked on my first little project.
+Eager to explore its capabilities and simultaneously learn something new, I set out to create a monitoring application using Go – a robust language renowned for its simplicity and efficiency in handling concurrent operations. 
 
 ## My Mini-Project: A Monitoring App in Golang
 
-The project is a dashboard for monitoring some of the Raspberry Pi metrics. It checks the Pi's temperature, clock speed, core voltage, and memory usage, and serves these metrics to any subscribed client. The app uses the server-sent events (SSE) protocol to push updates to the clients.
+My goal was to develop a dashboard that showcases various metrics from the Raspberry Pi, including temperature, clock speed, core voltage, and memory usage. The dashboard system is designed to serve these metrics to any subscribed client. As part of enhancing the project's capabilities, I chose to experiment with the recently introduced [Server-Sent Events extension of HTMX](https://deploy-preview-1650--htmx.netlify.app/extensions/server-sent-events/). This cutting-edge technology enables the server to push updates to a webpage over HTTP, establishing it as an exceptional tool for creating real-time applications."
 
 Let's walk through some critical parts of the code.
 
