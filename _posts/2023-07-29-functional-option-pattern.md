@@ -1,5 +1,5 @@
 ---
-title: "Learning Go: The Functional Option Pattern"
+title: "Go: The Functional Option Pattern"
 excerpt: "A design pattern in Go to pass in functions that alter the state of a type."
 last_modified_at: 2023-07-29T19:33:39-03:00
 tags: 
