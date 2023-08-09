@@ -9,9 +9,8 @@ I'm Kafran 👋🏼🙂.
 Here's a little about me:
 
 * I have been building native apps for iOS using SwiftUI since the release of iOS 13.
-* I use Go for backend development.
-* Though proficient in Python, I primarily use it for data analysis.
-* For web development, I prefer SSR using Tailwind CSS and HTMX.
+* I use Golang on the backend.
+* Though proficient in Python, I primarily use it for data analysis nowadays.
 * I'm based in João Pessoa, a vibrant city on the northeast coast of Brazil.
 * My best friend and I love working on IoT projects in our spare time.
   * We use a Raspberry Pi running Linux and Go services, and
